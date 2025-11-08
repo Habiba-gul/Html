@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<meta name="description" content="A brief description of the page">-->
+    <meta name="description" content="this page includes various html tags.that are basic tags for html document.">
+    <title>forms and input tags</title>
+</head>
+<body>
+    <!--forms and tags-->
+    
+    <div>
+        <h2>College Admission Form</h2>
+    <form action="Submit form" method="post">
+        <!--Personal information-->
+        <label > Enter your Fullname:</label>
+        <input type="text" name="Fullname" placeholder="Fullname" required><br><br>
+
+        <label > Enter your Email:</label>
+        <input type="email" name="Email" placeholder="Email" required><br><br>
+
+        <label >Enter your phone number</label>
+        <input type="number" name="phone number" placeholder="03xxxxxxxxx" required><br><br>
+
+        <label >Enter your Date of Birth:</label>
+        <input type="date" name="DOB" required><br><br>
+
+        <label >Select your Gender:</label>
+        <input type="radio" name="Gender" value="Male"> Male
+        <input type="radio" name="Gender" value="Femlae"> Female
+        <input type="radio" name ="Gender" value="others">Others
+        <br><br>
+
+        <label >Enter your Address</label><br>
+        <textarea name="Address" rows="13" cols="50" placeholder=" Address"></textarea><br><br>
+
+        <!--courses information-->
+        <label >Select Course</label> <br>
+        <select name="Course" required>
+            <option value="BS COMPUTER SCIENCE">COMPUTER SCIENCE</option>
+            <option value="BS SOFTWARE ENGINEERING">SOFTWARE ENGINEERING</option>
+            <option value="BS INFORMATION TECHNOLOGY">INFORMATION TECHNOLOGY</option>
+        </select><br><br>
+
+        <label >Last Qualification</label><br>
+        <input type="text">
+
+
+    </form>
+    </div>
+
+</body>
+</html>
