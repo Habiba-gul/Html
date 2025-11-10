@@ -1,0 +1,27 @@
+p{
+    background-color: rgb(200, 173, 224);
+}
+h4{
+    background-color: rgb(235, 171, 171);
+}
+div{
+    background-color: burlywood;
+}
+ul{
+    background-color: rgb(185, 231, 231);
+}
+ol{
+    background-color: cadetblue;
+}
+span{
+    background-color: antiquewhite;
+}
+label{
+    background-color: rgb(129, 129, 167);
+}
+input{
+    background-color: cornsilk;
+}
+a{
+    background-color: rgb(173, 131, 101);
+}
